@@ -1,0 +1,20 @@
+git clone <https://github.com/ilovrkive/taylor-s.git >
+cd <Taylor's>
+git checkout -b Taylor's
+git checkout -b feature/marketplace
+git add .
+Confirmar los cambios con un mensaje descriptivo
+git commit -m "Añadir funcionalidad de marketplace"
+git branch feature/front-end
+git branch feature/back-end
+git branch feature/database
+git branch feature/security
+git checkout feature/front-end
+git add .
+git commit -m "feat: implementar página de productos"
+git add .
+git commit -m "feat: implementar autenticación de usuario"
+git branch bug/fix-product-display
+git checkout bug/fix-product-display
+git add .
+git commit -m "fix: corregir problema de visualización de productos"
